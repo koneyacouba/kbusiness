@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle de [KONE BUSINESS]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            header, section, footer {
+                padding: 10px;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[KONE BUSINESS]</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Je suis informaticien spécialisé dans l'installation de caméras de sécurité et de barbelés électriques. Avec une expérience de plusieurs années dans le domaine, je mets mon expertise au service de vos besoins en sécurité.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Installation de caméras de sécurité</li>
+            <li>Installation de barbelés électriques</li>
+            <li>Maintenance et support technique</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projets</h2>
+        <p>Voici quelques exemples de projets récents :</p>
+        <ul>
+            <li>Installation de système de caméras dans un immeuble résidentiel</li>
+            <li>Installation de barbelés électriques autour d'un site industriel</li>
+            <li>Projet de sécurisation d'un entrepôt avec surveillance à distance</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Nom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [KONE BUSINESS]. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
